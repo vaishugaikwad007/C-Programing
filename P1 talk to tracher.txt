@@ -1,0 +1,16 @@
+//my first c program
+
+#include<stdio.h>
+
+int main()
+
+{
+
+    printf("talk to a teacher\n");
+
+    return 0;
+
+}
+
+output:
+talk to a teacher
