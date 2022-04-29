@@ -1,0 +1,22 @@
+//nested if else statement
+#include <stdio.h>
+
+int main()
+{
+   int x,y;
+   printf("Enter a number between 0 to 39:");
+   scanf("%d",&y);
+   if (y/10==0)
+   {
+       printf("you have entered the number in the range of 0 to 9\n");
+   }
+   else
+   {
+       printf("The number not in range\n");
+   }
+   return 0;
+}
+
+OUTPUT:
+Enter a number between 0 to 39:7
+you have entered the number in the range of 0 to 9
