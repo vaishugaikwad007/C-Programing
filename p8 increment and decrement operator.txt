@@ -1,0 +1,28 @@
+//increment and decrement operator
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   printf("a's value is now%d\n",a++);
+   printf("a's value is now%d\n",a);
+   a=1;
+   printf("a's value is now%d\n",++a);
+   printf("a's value is now%d\n",a);
+   a=1;
+   printf("a's value is now%d\n",a--);
+   printf("a's value is now%d\n",a);
+   a=1;
+   printf("a's value is now%d\n",--a);
+   printf("a's value is now%d\n",a);
+   return 0;
+}
+
+OUTPUT:
+a's value is now1
+a's value is now2
+a's value is now2
+a's value is now2
+a's value is now0
+a's value is now0
+a's value is now0
